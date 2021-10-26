@@ -67,30 +67,173 @@
                         </div>
                     </div>
                     <figure class="col-1-2">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AqcjdkPMPJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/AqcjdkPMPJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </figure>
 
                 </div>
 
             </section>
             <!--about-->
-            <section>
-                <div class="container">
-                    <div>
-                        <h2>Let us introduce</h2>
-                        <div class="dot-wrapper">
+            <section class="about padding">
+                <div class="container flex align-start"> 
+                    <div class="flex-40">
+                        <header class="section-header">
+                            <h2 class="heading">Let us introduce</h2>
+                            <div class="dot-wrapper justify-start">
                             <div class="dot"></div>
                             <div class="dot"></div>
                             <div class="dot"></div>
                         </div>
-                        <p>
+                        </header>
+                        
+                        <p class="text">
                             In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
                         </p>
-                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.</p>
+                        <p class="text">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.</p>
                     </div>
-                    
+                    <div class="flex-30 progress">
+                    <div class="progress-item">
+                        <div class="flex">
+                            <h3>Web Design</h3>
+                            <p>85%</p>      
+                        </div>
+                        <progress value="85" max="100"></progress>
+                    </div>
+                    <div class="progress-item">
+                        <div class="flex">
+                            <h3>Photography</h3>
+                            <p>90%</p>      
+                        </div>
+                        <progress value="90" max="100"></progress>
+                    </div>
+                    <div class="progress-item">
+                        <div class="flex">
+                            <h3>Content marketing</h3>
+                            <p>75%</p>      
+                        </div>
+                        <progress value="75" max="100"></progress>
+                    </div>
+                    <div class="progress-item">
+                        <div class="flex">
+                            <h3>CMS Admin</h3>
+                            <p>70%</p>      
+                        </div>
+                        <progress value="70" max="100"></progress>
+                    </div>
+                    </div>
+                    <div class="flex-30">
+                        <img class="flexible-img about-img" src="assets/about-image.jpg" alt="About img">
+                    </div> 
                 </div>
             </section>
-        </main>        
+            <!--contact us-->
+            <section class="contact padding">
+                <div class="container">
+                    <header class="sec-header text-center">
+                        <h2 class="heading">Contact Us</h2>
+                        <div class="dot-wrapper justify-start">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </header>
+                    <div class="flex">
+                        <form class="flex-60" action="index.html" method="post">
+                        <fieldset>
+                            <div class="flex">
+                                <input class="form-control flex-48" type="text" name="name" placeholder="Full Name">
+                                <input class="form-control flex-48" type="email" name="email" placeholder="Your Email">
+                            </div>
+                            <div class="flex">
+                                <input class="form-control flex-48" name="number" type="tel" placeholder="Your Phone">
+                                <select class="form-control flex-48" name="budget">
+                                    <option value="Budget Level">Budget Level</option>
+                                    <option value="Budget Level1">Budget Leve1</option>
+                                    <option value="Budget Level2">Budget Leve2</option>
+                                    <option value="Budget Level3">Budget Leve3</option>
+                                </select>
+                            </div>
+                            <textarea class="form-control" name="requirements" placeholder="Your Requirements" id="" rows="6"></textarea>
+                        </fieldset>
+                        <input type="submit" value="Send Message" class="btn btn-primary">
+                    </form>
+                    <div class="flex-40 map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.8881481791864!2d76.35319631475375!3d32.207244481147846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1635218073377!5m2!1sen!2sin"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>                     
+                    </div>               
+                </div>
+            </section>
+        </main>
+        <footer class="footer padding">
+            <div class="container">
+                <div class="flex align-start" >
+                    <div class="flex-40">
+                        <h3>Hydro Company</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quas repellendus repellat illo porro earum, sequi deleniti officiis, culpa qui quae commodi vitae optio labore similique eum, deserunt assumenda nemo!</p>
+                    </div>
+                    <div class="flex-20">
+                        <h3>Company</h3>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Join our Team</a>
+                                </li>
+                                <li>
+                                    <a href="#">Road Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Press</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="flex-20">
+                        <h3>Services</h3>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#">Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="#">Documentation</a>
+                                </li>
+                                <li>
+                                    <a href="#">Support</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="flex-20">
+                        <h3>Find Us</h3>
+                        <address>
+                            AltCampus, Thehr, Khaniara,<br>
+                             Kangra, Himachal Pradesh 176218.
+                        </address>
+                    </div>
+                </div>
+                <hr>
+                <div class="flex footer-additional-info">
+                    <small>Copyright &copy; 2017 Your Company</small>
+                    <div class="flex">
+                        <p>Call us (+66) 010-020-0340</p>
+                        <nav>
+                            <ul class="flex">
+                                <li class="social-media-item">
+                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                </li>
+                                <li class="social-media-item">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="social-media-item">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>       
     </body>
 </html>
